@@ -2,12 +2,12 @@
 let navbarNav = document.querySelector(".navbar-nav");
 
 // ketika hamburger menu di klik
-document.querySelector("#menu").onclick = () => {
+document.querySelector("#hamburger-menu").onclick = () => {
   navbarNav.classList.toggle("active");
 };
 
 // klik di luar sidebar untuk menghilangkan navbar
-let hamburger = document.querySelector("#menu");
+let hamburger = document.querySelector("#hamburger-menu");
 
 document.addEventListener("click", function (e) {
   if (!hamburger.contains(e.target) && !navbarNav.contains(e.target)) {

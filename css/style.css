@@ -16,7 +16,7 @@ body {
   font-family: "Poppins", sans-serif;
   background: var(--bg);
   color: #fff;
-  min-height: 2000px;
+  min-height: 3000px;
 }
 
 /* navbar */
@@ -78,7 +78,7 @@ body {
   color: var(--primary);
 }
 
-#menu {
+#hamburger-menu {
   display: none;
 }
 
@@ -204,7 +204,7 @@ body {
     font-size: 62.5%;
   }
 
-  #menu {
+  #hamburger-menu {
     display: inline-block;
   }
 
